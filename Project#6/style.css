@@ -1,0 +1,140 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+fieldset {
+    border: none;
+    border-top: 4px solid rgb(0, 0, 0);
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+header {
+    /* outline: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #91c8e4;
+    min-height: 50px;
+}
+header img {
+    width: max(100px, 13vw);
+    /* background-color: aqua; */
+    aspect-ratio: 35/4;
+    padding: 0.2rem;
+    /* margin: 0.4rem; */
+}
+header .title {
+    /* outline: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header h1 {
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-size: min(1.4rem, 5vw);
+    /* margin-top: 5px; */
+}
+header li {
+    list-style: none;
+    font-size: min(1rem, 5vw);
+}
+header a {
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+}
+
+header nav ul {
+    /* outline: 1px solid red; */
+    display: flex;
+    /* gap: 40px; */
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+}
+header nav {
+    /* outline: 1px solid black; */
+    width: 100%;
+    max-width: 400px;
+    /* background-color: pink; */
+}
+
+/*  */
+
+main {
+    width: 700px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+}
+
+main .student-info label {
+    line-height: 30px;
+}
+main .student-info input {
+    width: 50%;
+}
+main .student-info .indent-student {
+    margin-left: 3px;
+}
+
+/*  */
+
+.responsibility fieldset h3::before {
+    content: "Question ";
+}
+.responsibility .border-none {
+    border-top: none;
+    margin-top: -40px;
+}
+.responsibility label {
+    line-height: 30px;
+}
+
+/*  */
+
+.skill div {
+    margin-top: 30px;
+    line-height: 30px;
+}
+div.button {
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+    width: 500px;
+    height: 50px;
+    margin-bottom: 40px;
+}
+input[type="submit"] {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: #91c8e4;
+    border: none;
+}
+footer {
+    background-color: #91c8e4;
+    margin: 10px 0px;
+    /* outline: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}

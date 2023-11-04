@@ -1,0 +1,84 @@
+.container .menu p,  .container .menu div{
+    /* outline: 1px solid red; */
+    padding: 10px;
+    display: inline-block;
+}
+.container .menu {
+    font-family: sans-serif;
+}
+.container .menu .store  {
+    margin-right: 1500px;
+}
+.container .menu div img {
+    width: 23px;
+    margin-top: 10px;
+    vertical-align: bottom;
+}
+.container div button {
+    padding: 5px 10px 5px 10px;
+    color: white;
+    background-color: #3369e8;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.container .google {
+    /* outline: 1px solid black; */
+    text-align: center;
+}
+.container .google p {
+    margin-top: 15rem;
+    /* outline: 1px solid red; */
+    font-size: 7rem;
+    letter-spacing: 15px;
+    margin-bottom: 20px;
+}
+
+.container .google p .g-first {
+    color: #3369e8;
+}
+.container .google p .o-first {
+    color: #D50F25;
+}   
+.container .google p .o-second {
+    color: #EEB211;
+}
+.container .google p .g-second {
+    color: #3369e8;
+}
+.container .google p .l {
+    color: #009925;
+}
+.container .google p .e {
+    color: #D50F25;
+}
+
+
+
+.container .google p span {
+    margin-left: -40px;
+    
+}
+
+
+.container .search form input[type="text"] {
+    height: 50px;
+    width: 800px;
+    margin-left: 520px;
+    font-size: 32px;
+    border-radius: 50px;
+    border: 1px solid black;
+    padding-left: 30px;
+}
+
+
+.container .search form input[type="submit"] {
+    height: 1px;
+    width: 1px;
+    border: none;
+    background-color: white;
+}
+.search form img {
+    width: 20px;
+    position: right;
+}

@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    color: rgb(24, 24, 132);
+}
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    
+}
+.container {
+    /* outline: 1px solid red; */
+    width: 750px;
+    /* height: 100px; */
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    
+    background-color: #7cc6f2;
+    padding: 10px 10px 0px 10px;
+    
+}
+
+.Nutrition-Facts-left {
+    background-color: white;
+    padding: 3px 3px;
+    border: 1px solid black;
+    height: 687px;
+    
+    
+}
+.border {
+    /* border: 1px solid red; */
+}
+.letter-spacing {
+    letter-spacing: 0.4px;
+}
+
+.nutrition-facts {
+    border: 1.5px solid rgb(3, 3, 190);
+    padding: 0px 5px;
+    width: 300px;
+    
+}
+.nutrition-facts h1{
+    margin: 0;
+}
+.nutrition-facts p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+/* fonts size weight  */
+.extra-big {
+    font-size: 45px;
+}
+.big {
+    font-size: 35px;
+}
+.mid {
+    font-size: 14.5px;
+}
+.small {
+    font-size: 12.5px;
+}
+.bold {
+    font-weight: 800;
+
+
+}
+/*  */
+.divider {
+    border-bottom: 1px solid rgb(1, 1, 88);
+    margin: 2px 0px;
+}
+.divider-second {
+    border-bottom: 1px solid rgb(1, 1, 88);
+    margin: 2px 0px;
+    margin-left: 24px;
+    
+}
+.medium {
+    border-bottom: 5px solid rgb(1, 1, 88);
+}
+.large {
+    border-bottom: 15px solid rgb(1, 1, 88);
+}
+.indent-one {
+    padding-left: 10px;
+}
+.indent-two {
+    padding-left: 24px;
+}
+
+
+/*  */
+.amount-per-serving {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nutrition-facts .daily {
+    justify-content: flex-end;
+}
+.text {
+    padding: 0px 5px 10px 5px;
+    
+}
+.space {
+    padding-right: 5px;
+}
+
+
+.img-holder-3 img{
+    width: 300px;
+    height: 380px;
+    
+}
+
+
+
+
+.Oreo-Ingridients-right {
+    /* outline: 1px solid red; */
+    
+}
+.img-holder-1  {
+    /* outline: 1px solid orange; */
+    /* margin-top: 10px; */
+}
+.img-holder-1 img{
+    
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+}
+.ingr-container {
+    padding: 0 15px;
+    
+}
+.ingr-container p {
+    color: white;
+}
+.img-holder-2 img {
+    width: 350px;
+    height: 300px;
+}
+.img-holder-2 {
+    margin-left: 45px;
+    margin-bottom: -5px;
+    object-fit: cover;
+}

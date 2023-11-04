@@ -1,0 +1,158 @@
+* {
+    margin: 0px 0px;
+    
+}
+body {
+    background-color: rgb(110, 110, 11);
+    height: 100vh;
+    
+    
+}
+main {
+    margin: auto auto;
+    margin-top: 50px;
+    max-width: 670px;
+    min-width: 670px;
+    height: 90vh;
+    border: 1.5px solid black;
+    background-color: whitesmoke;
+    box-shadow: -25px 35px 180px black;
+    
+}
+
+
+/* FIRST LAYER */
+.first-layer {
+    margin-left: 17px;
+}
+
+.first-layer img {
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 50px;
+    /* outline: 1px solid red; */
+}
+.first-layer p {
+    display: inline-block;
+    /* outline: 1px solid red; */
+    vertical-align: 6px;
+    
+}
+.first-layer p .title { 
+    font-size: 2rem;
+    font-weight: bold;
+    color: #7E1717;
+}
+
+.first-layer p .ph {
+    margin-left: 120px;
+    font-size: 20px;
+}
+
+.first-layer p .address {
+    margin-left: 22px;
+}
+
+
+.first-layer p .bul {
+    margin-left: 150px;
+}
+
+/* END - FIRST LAYER */
+
+/* SECOND-LAYER */
+
+.second-layer .admission {
+    border: 1px solid black;
+    text-align: center;
+    width: 200px;
+    margin-left: 230px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    color: white;
+    background-color: #7E1717;
+    
+}
+
+.second-layer .instruction {
+    margin-left: 15px;
+    margin-bottom: 4px;
+}
+
+/* END - SECOND LAYER */
+
+/* THIRD-LAYER */
+
+.container-third-layer {
+    height: 55%;
+    width: 95%;
+    /* border: 1px solid red; */
+    margin: auto auto;
+    color: white;
+}
+
+.container-third-layer .personal-info {
+    border: 1px solid black;
+    padding: 2px;
+    background-color: #7E1717;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.container-third-layer form div {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.container-third-layer form .item .label, .container-third-layer form .item .input {
+    margin-top: -2px;
+    
+}
+
+.container-third-layer form .item .label {
+    /* border: 1px solid red; */
+    width: 123px;
+    padding: 3px;
+    background-color: #7E1717;
+}
+
+.container-third-layer form .item input {
+    height: 20px;
+    border: none;
+}
+
+.container-third-layer form .item {
+    border: 1px solid black;
+    
+}
+
+/* button */
+form .button button {
+    margin-left: 200px;
+    margin-top: 40px;
+    width: 200px;
+    padding: 10px 0px;
+    color: white;
+    background-color: #7E1717;
+    border: none;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: serif;
+    cursor: pointer;
+
+}
+form .button button:hover {
+    opacity: 0.8;
+}
+form .button button:active {
+    background-color: maroon;
+    color: black;
+    border: none;
+}
+
+
+
+
